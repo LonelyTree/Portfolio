@@ -242,8 +242,8 @@
       margin-right: 6.5vw;
       -webkit-clip-path: polygon(50% 0, 0% 100%, 100% 100%);
       clip-path: polygon(50% 0, 0% 100%, 100% 100%);
-      background: #9d251d;
-      border: #9d251d solid; }
+      background: #a9110f;
+      border: #a9110f solid; }
     .tech .grid__software .skills {
       grid-area: 3/3/3/3;
       text-align: center;
