@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+@keyframes turn-on {
+  0% {
+    -webkit-transform: scale(1, 0.8) translate3d(0, 0, 0);
+    transform: scale(1, 0.8) translate3d(0, 0, 0);
+    opacity: 1; }
+  5% {
+    -webkit-transform: scale(1.09139, 1.34235) translate3d(0, 100%, 0);
+    transform: scale(1.09139, 1.34235) translate3d(0, 100%, 0); }
+  10% {
+    -webkit-transform: scale(0.63084, 1.40698) translate3d(0, -100%, 0);
+    transform: scale(0.63084, 1.40698) translate3d(0, -100%, 0); }
+  15% {
+    -webkit-transform: scale(0.75142, 1.34118) translate3d(0, 100%, 0);
+    transform: scale(0.75142, 1.34118) translate3d(0, 100%, 0); }
+  20% {
+    -webkit-transform: scale(0.96173, 1.36858) translate3d(0, -100%, 0);
+    transform: scale(0.96173, 1.36858) translate3d(0, -100%, 0); }
+  25% {
+    -webkit-transform: scale(1.1348, 1.02729) translate3d(0, 100%, 0);
+    transform: scale(1.1348, 1.02729) translate3d(0, 100%, 0); }
+  30% {
+    -webkit-transform: scale(0.97038, 0.71092) translate3d(0, -100%, 0);
+    transform: scale(0.97038, 0.71092) translate3d(0, -100%, 0); }
+  35% {
+    -webkit-transform: scale(0.6067, 1.31101) translate3d(0, 100%, 0);
+    transform: scale(0.6067, 1.31101) translate3d(0, 100%, 0); }
+  40% {
+    -webkit-transform: scale(0.786, 0.9326) translate3d(0, -100%, 0);
+    transform: scale(0.786, 0.9326) translate3d(0, -100%, 0); }
+  45% {
+    -webkit-transform: scale(1.38602, 1.14399) translate3d(0, 100%, 0);
+    transform: scale(1.38602, 1.14399) translate3d(0, 100%, 0); }
+  50% {
+    -webkit-transform: scale(0.69973, 0.90412) translate3d(0, -100%, 0);
+    transform: scale(0.69973, 0.90412) translate3d(0, -100%, 0); }
+  51% {
+    -webkit-transform: scale(1, 1) translate3d(0, 0, 0);
+    transform: scale(1, 1) translate3d(0, 0, 0);
+    -webkit-filter: brightness(1) saturate(1);
+    filter: brightness(1) saturate(1);
+    opacity: 0; }
+  100% {
+    -webkit-transform: scale(1, 1) translate3d(0, 0, 0);
+    transform: scale(1, 1) translate3d(0, 0, 0);
+    -webkit-filter: contrast(1) brightness(1.2) saturate(1.3);
+    filter: contrast(1) brightness(1.2) saturate(1.3);
+    opacity: 1; } }
+
+@keyframes flicker {
+  0% {
+    opacity: 0.86139; }
+  5% {
+    opacity: 0; }
+  10% {
+    opacity: 0.36759; }
+  15% {
+    opacity: 0.9766; }
+  20% {
+    opacity: 0; }
+  25% {
+    opacity: 0.94477; }
+  30% {
+    opacity: 0.57811; }
+  35% {
+    opacity: 0.03416; }
+  40% {
+    opacity: 0.21835; }
+  45% {
+    opacity: 0.62054; }
+  50% {
+    opacity: 0.89452; }
+  55% {
+    opacity: 0.89997; }
+  60% {
+    opacity: 0.37872; }
+  65% {
+    opacity: 0.04929; }
+  70% {
+    opacity: 0.14477; }
+  75% {
+    opacity: 0.27512; }
+  80% {
+    opacity: 0.84701; }
+  85% {
+    opacity: 0.85952; }
+  90% {
+    opacity: 0.76553; }
+  95% {
+    opacity: 0.91372; }
+  100% {
+    opacity: 0.05536; } }
+
+.modal {
+  width: 50vw;
+  font-size: 1vw; }
+
+.imgholder {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly; }
+
+.img1 {
+  display: inline-block;
+  margin: 0 1vw; }
+
+.img2 {
+  display: inline-block; }
+
+.imgsrc {
+  width: 21vw; }
+
+.linked {
+  color: red; }
+
+.tech {
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1vw;
+  position: fixed; }
+  .tech .hackish {
+    width: 100vw;
+    height: 99.9vh;
+    background-image: url(http://i.imgur.com/msmvE09.gif);
+    background-color: white;
+    position: absolute;
+    z-index: -1;
+    top: 0vw;
+    background-blend-mode: luminosity; }
+  .tech .vertical__software {
+    position: absolute;
+    height: 100vh;
+    width: 16.7vw;
+    border-right: dashed 0.1vw #ffffff3d; }
+  .tech .ray__software-0 {
+    position: absolute;
+    height: 189vw;
+    width: 16.7vw;
+    border-right: dashed 0.1vw #fff;
+    transform: rotate(45deg);
+    top: -62vw;
+    z-index: -1; }
+  .tech .ray__software-1 {
+    position: absolute;
+    height: 200vw;
+    width: 16.7vw;
+    border-right: dashed 0.1vw #fff;
+    transform: rotate(60deg);
+    top: -67vw;
+    z-index: -1; }
+  .tech .ray__software-2 {
+    position: absolute;
+    height: 200vw;
+    width: 16.7vw;
+    border-right: dashed 0.1vw #fff;
+    transform: rotate(75deg);
+    top: -67.6vw;
+    z-index: -1; }
+  .tech .ray__software-3 {
+    position: absolute;
+    height: 200vw;
+    width: 16.7vw;
+    border-right: dashed 0.1vw #fff;
+    transform: rotate(90deg);
+    top: -68.6vw;
+    z-index: -1; }
+  .tech .grid__software {
+    display: grid;
+    grid-template-columns: 17% 40% 40%;
+    grid-template-rows: 24% 30% 26% 10%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    animation: flicker 500ms;
+    background: #000000ed; }
+    .tech .grid__software .contact__software {
+      display: inline-block;
+      position: relative;
+      left: 2.5vw;
+      font-size: 1.5vw;
+      top: 2vh;
+      cursor: pointer;
+      width: 15rem;
+      height: 3rem; }
+      .tech .grid__software .contact__software .redbar-contact {
+        width: 8vw;
+        height: 1.4vw;
+        margin-top: 0.5vw;
+        background: #9d251d; }
+    .tech .grid__software .sidebar__software {
+      width: 200%;
+      height: 30%;
+      display: flex;
+      justify-content: space-around;
+      transform: rotate(-90deg);
+      margin-top: 9vw;
+      flex-direction: row-reverse; }
+      .tech .grid__software .sidebar__software .resumeText__software {
+        margin-left: -5vw; }
+      .tech .grid__software .sidebar__software .titles__software {
+        font-size: 0.95vw;
+        height: 2vw;
+        cursor: pointer;
+        color: white; }
+    .tech .grid__software .icons__software {
+      position: absolute;
+      width: 1vw;
+      display: flex;
+      flex-direction: column;
+      height: 34vw;
+      top: -22vw;
+      left: 12vw;
+      justify-content: space-evenly;
+      transform: rotate(90deg); }
+    .tech .grid__software .icons__software-click {
+      border-style: none;
+      width: 4vw;
+      margin: 2.4vw 1vw;
+      transform: rotate(-90deg);
+      cursor: pointer;
+      filter: contrast(0) brightness(2); }
+    .tech .grid__software .icons__software-resume {
+      cursor: pointer;
+      padding-left: 2vw;
+      padding-bottom: 3vw; }
+    .tech .grid__software .icons__software-linkedIn {
+      width: 8vw;
+      margin-left: -1vw;
+      margin-top: -2.3vw;
+      padding-left: 3vw;
+      padding-bottom: 2vw;
+      filter: grayscale(1) brightness(3); }
+    .tech .grid__software .logo__software {
+      grid-area: 1/ 2 / 3/ 4;
+      width: 27vw;
+      height: 24vw;
+      justify-self: flex-end;
+      margin-top: 9vh;
+      margin-right: 6.5vw;
+      -webkit-clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+      clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+      background: #9d251d;
+      border: #9d251d solid; }
+    .tech .grid__software .skills {
+      grid-area: 3/3/3/3;
+      text-align: center;
+      line-height: 1.6vw; }
+      .tech .grid__software .skills .skillsList {
+        width: 27vw;
+        margin: 0 auto; }
+    .tech .grid__software .projects {
+      grid-area: 2/2/4/3;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 8vw;
+      margin-top: -6vw; }
+      .tech .grid__software .projects .header {
+        font-size: 3vw;
+        line-height: 1vw;
+        color: #9d251d; }
+      .tech .grid__software .projects .element {
+        height: 4vh;
+        line-height: 2vw;
+        padding: 0vw 1vw;
+        border: dashed 0.12vw #b01a1a00;
+        border-top: dashed 0.12vw #b01a1a00;
+        border-bottom: dashed 0.12vw #b01a1a00;
+        cursor: pointer; }
+        .tech .grid__software .projects .element:hover {
+          animation: flicker 500ms;
+          background: #9d000078;
+          color: black;
+          border-top: dashed 0.12vw #9d000078;
+          border-bottom: dashed 0.12vw #9d000078;
+          box-shadow: 0 0 0.4 #9d000078; }
