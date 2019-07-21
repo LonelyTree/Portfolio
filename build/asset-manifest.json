@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b0f07447.chunk.css",
+    "main.js": "/static/js/main.e42a5de3.chunk.js",
+    "main.js.map": "/static/js/main.e42a5de3.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.764ccc25.chunk.css": "/static/css/2.764ccc25.chunk.css",
+    "static/js/2.69d69224.chunk.js": "/static/js/2.69d69224.chunk.js",
+    "static/js/2.69d69224.chunk.js.map": "/static/js/2.69d69224.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3a9a3c58112a93d1c0dfcfea3ee763a5.js": "/precache-manifest.3a9a3c58112a93d1c0dfcfea3ee763a5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.b0f07447.chunk.css.map": "/static/css/main.b0f07447.chunk.css.map",
+    "static/media/LI-China-In-Bug.png": "/static/media/LI-China-In-Bug.26277ac8.png",
+    "static/media/alexHughesResume.pdf": "/static/media/alexHughesResume.68de7898.pdf",
+    "static/media/contagionControlMapMini.png": "/static/media/contagionControlMapMini.4a0f3155.png",
+    "static/media/contagionControlMenuMini.png": "/static/media/contagionControlMenuMini.f4258bf8.png",
+    "static/media/giraffe.png": "/static/media/giraffe.68d6ad95.png",
+    "static/media/globalMenuMini.png": "/static/media/globalMenuMini.e32927ea.png",
+    "static/media/globalTitleMini.png": "/static/media/globalTitleMini.e52c1f66.png",
+    "static/media/glyph-logo_May2016.png": "/static/media/glyph-logo_May2016.0e84d592.png",
+    "static/media/neuroDromeGame.png": "/static/media/neuroDromeGame.ea56c9e1.png",
+    "static/media/neuroDromeMenu.png": "/static/media/neuroDromeMenu.89d09ecb.png",
+    "static/media/programmedMini.png": "/static/media/programmedMini.ccb425cd.png",
+    "static/media/safeParkingMenu.png": "/static/media/safeParkingMenu.d933dd8c.png",
+    "static/media/safeParkingSearch.png": "/static/media/safeParkingSearch.2e6e768e.png",
+    "static/media/softwaregiraffe.png": "/static/media/softwaregiraffe.87ee5526.png",
+    "static/media/tree.png": "/static/media/tree.c797d040.png"
+  }
+}
