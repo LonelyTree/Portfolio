@@ -414,7 +414,7 @@ class Software extends Component {
 					</div>
 				</Modal>
 				<Modal
-					classNames={{ modal: 'modal' }}
+					classNames={{ modal: 'contact' }}
 					center
 					open={this.state.modal5}
 					onClose={this.contact}
