@@ -159,7 +159,7 @@ class Software extends Component {
 							</a>
 							<img
 								onClick={this.resumeView}
-								className="icons__software-click icon__software-resume"
+								className="icons__software-click icons__software-resume"
 								alt="Resume/CV Logo"
 								src={ResumeLogo}
 								style={{ cursor: 'pointer' }}
@@ -184,25 +184,25 @@ class Software extends Component {
 						<h1 className="header">On Coding</h1>
 						<div>
 							<h3 onClick={this.modal0} className="element">
-								//--evolution_in_life
+								<span className="elementFlicker">//--EVOLUTION_IN_LIFE</span>
 							</h3>
 						</div>
 						<h1 className="header">Projects</h1>
 						<div>
 							<h3 onClick={this.modal1} className="element">
-								//-------------GLOBAL
+								<span className="elementFlicker">//-------------GLOBAL</span>
 							</h3>
 							<h3 onClick={this.modal2} className="element">
-								//--CONTAGION_CONTROL
+								<span className="elementFlicker">//--CONTAGION_CONTROL</span>
 							</h3>
 							<h3 onClick={this.modal3} className="element">
-								//----------STREET LA
+								<span className="elementFlicker">//----------STREET_LA</span>
 							</h3>
 						</div>
 						<h1 className="header">Experiments</h1>
 						<div>
 							<h3 onClick={this.modal4} className="element">
-								//--------NEURO_DROME
+								<span className="elementFlicker">//--------NEURO_DROME</span>
 							</h3>
 						</div>
 						<a href="https://github.com/LonelyTree">
