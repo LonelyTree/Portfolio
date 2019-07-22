@@ -212,7 +212,7 @@
       flex-direction: column;
       height: 34vw;
       top: -22vw;
-      left: 12vw;
+      left: 10vw;
       justify-content: space-evenly;
       transform: rotate(90deg); }
     .tech .grid__software .icons__software-click {
@@ -285,7 +285,7 @@
           padding: 0.5vw 2.5vw 0.5vw 2.5vw; }
           .tech .grid__software .projects .element .elementFlicker:hover {
             animation: flicker infinite 500ms;
-            color: red; }
+            color: #ff0000a1; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .modal {
@@ -329,39 +329,40 @@
       position: absolute;
       height: 100vh;
       width: 16.7vw;
-      border-right: dashed 0.1vw #ffffff3d; }
+      border-right: dashed 0.1vw #ffffff3d;
+      display: none; }
     .tech .ray__software-0 {
       position: absolute;
       height: 189vw;
       width: 16.7vw;
-      border-right: dashed 0.1vw #fff;
+      border-right: dashed 0.5vw #fff;
       transform: rotate(45deg);
-      top: -62vw;
-      z-index: -1; }
+      top: -36.6vh;
+      z-index: 0; }
     .tech .ray__software-1 {
       position: absolute;
       height: 200vw;
       width: 16.7vw;
       border-right: dashed 0.1vw #fff;
       transform: rotate(60deg);
-      top: -67vw;
-      z-index: -1; }
+      top: -40.1vh;
+      z-index: 0; }
     .tech .ray__software-2 {
       position: absolute;
       height: 200vw;
       width: 16.7vw;
       border-right: dashed 0.1vw #fff;
       transform: rotate(75deg);
-      top: -67.6vw;
-      z-index: -1; }
+      top: -40.7vh;
+      z-index: 0; }
     .tech .ray__software-3 {
       position: absolute;
       height: 200vw;
       width: 16.7vw;
-      border-right: dashed 0.1vw #fff;
+      border-right: dashed 0.5vw #fff;
       transform: rotate(90deg);
-      top: -68.6vw;
-      z-index: -1; }
+      top: -41.6vh;
+      z-index: 0; }
     .tech .grid__software {
       display: grid;
       grid-template-columns: 33% 33% 34%;

@@ -105,39 +105,55 @@ class Landing extends Component {
 						Contact
 					</h1>
 					<div className="sidebar">
-						<a href="https://www.linkedin.com/in/cahworks/">
+						<a
+							className="a__linkedIn"
+							href="https://www.linkedin.com/in/cahworks/"
+						>
 							<h1 className="titles">LinkedIn</h1>
 						</a>
-						<a href="https://www.instagram.com/onhughes/">
+						<a
+							className="a__instagram"
+							href="https://www.instagram.com/onhughes/"
+						>
 							<h1 className="titles">Instagram</h1>
 						</a>
-						<a href="https://github.com/LonelyTree">
+						<a className="a__github" href="https://github.com/LonelyTree">
 							<h1 className="titles">Github</h1>
 						</a>
 						<h1 className="titles resumeText" onClick={this.resumeView}>
 							Resume / CV
 						</h1>
 						<div className="icons">
-							<a href="https://www.linkedin.com/in/cahworks/">
+							<a
+								className="grid__linkedIn"
+								href="https://www.linkedin.com/in/cahworks/"
+							>
 								<img
-									className="icons__click icons__linkedIn"
+									className="icons__click icons__linkedIn a__icon-linkedIn"
 									alt="LinkedIn Logo"
 									src={LinkLogo}
 								/>
 							</a>
-							<a href="https://www.instagram.com/onhughes/">
+							<a
+								className="grid__instagram"
+								href="https://www.instagram.com/onhughes/"
+							>
 								<img
-									className="icons__click"
+									className="icons__click a__icon-instagram"
 									alt="Instagram Logo"
 									src={InstaLogo}
 								/>
 							</a>
-							<a href="https://github.com/LonelyTree">
-								<img className="icons__click" alt="GitHub Logo" src={GitLogo} />
+							<a className="grid__github" href="https://github.com/LonelyTree">
+								<img
+									className="icons__click a__icon-github"
+									alt="GitHub Logo"
+									src={GitLogo}
+								/>
 							</a>
 							<img
 								onClick={this.resumeView}
-								className="icons__click icon__resume"
+								className="icons__click icons__resume"
 								alt="Resume/CV Logo"
 								src={ResumeLogo}
 								style={{ cursor: 'pointer' }}
@@ -145,16 +161,11 @@ class Landing extends Component {
 						</div>
 					</div>
 					<div className="name">
-						<p className="location" style={{ margin: '0 auto' }}>
+						<p className="location">
 							Los Angeles, CA / Portland, OR / New Orleans, LA
 						</p>
 						<h1>Alex Hughes</h1>
-						<p
-							className="underName"
-							style={{ margin: '0 auto', marginLeft: '25vw' }}
-						>
-							Evolution in Life
-						</p>
+						<p className="underName">Evolution in Life</p>
 					</div>
 					<div className="quote">
 						<h1 className="philosophy"> - philosophy</h1>
