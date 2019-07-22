@@ -100,6 +100,10 @@ class Landing extends Component {
 	render() {
 		return (
 			<div className="landing">
+				<div className="streakWrapper">
+					<div className="mainStreak" />
+					<div className="accentStreak" />
+				</div>
 				<div className="grid">
 					<h1 onClick={this.contact} title="Say Hello!" className="contact">
 						Contact
@@ -199,7 +203,10 @@ class Landing extends Component {
 							onMouseOver={this.programmingOn}
 							onMouseOut={this.programmingOff}
 						>
-							<a href="/software" style={{ color: 'white' }}>
+							<a
+								href="/software"
+								style={{ color: 'white', width: '100%', textAlign: 'center' }}
+							>
 								<p className="software">Software</p>
 							</a>
 						</div>
@@ -208,7 +215,10 @@ class Landing extends Component {
 							onMouseOver={this.photoOn}
 							onMouseOut={this.photoOff}
 						>
-							<a onClick={this.photographyView} style={{ color: 'white' }}>
+							<a
+								onClick={this.photographyView}
+								style={{ color: 'white', width: '100%', textAlign: 'center' }}
+							>
 								<p className="photography">Photography</p>
 							</a>
 						</div>
@@ -216,10 +226,6 @@ class Landing extends Component {
 				</div>
 				<div className="vertical" />
 				<div className="horizontal" />
-				<div className="streakWrapper">
-					<div className="mainStreak" />
-					<div className="accentStreak" />
-				</div>
 				<Modal
 					classNames={{ modal: 'contact' }}
 					center

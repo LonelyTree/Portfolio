@@ -120,7 +120,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1vw;
-  position: fixed; }
+  position: relative; }
   .tech .hackish {
     width: 100vw;
     height: 99.9vh;
@@ -315,7 +315,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 1vw;
-    position: fixed; }
+    position: relative; }
     .tech .hackish {
       width: 100vw;
       height: 99.9vh;
