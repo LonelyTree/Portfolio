@@ -197,6 +197,7 @@ a {
 			cursor: pointer;
 			width: 15rem;
 			height: 3rem;
+			z-index: 2;
 		}
 		.sidebar {
 			width: 200%;
@@ -206,6 +207,7 @@ a {
 			transform: rotate(-90deg);
 			margin-top: 8rem;
 			flex-direction: row-reverse;
+			z-index: 2;
 			.resumeText {
 				margin-left: -5vw;
 			}
@@ -309,7 +311,7 @@ a {
 			justify-content: space-between;
 			align-items: center;
 			margin-left: -50%;
-			z-index: 1;
+			z-index: 2;
 			.categories {
 				background: black;
 				width: 19vw;
@@ -346,7 +348,7 @@ a {
 		height: 100vh;
 		top: 0rem;
 		border-right: dashed 0.1vw #00000042;
-		z-index: -1;
+		z-index: 1;
 	}
 	.horizontal {
 		width: 100vw;
@@ -354,7 +356,7 @@ a {
 		height: 30vh;
 		top: 67vh;
 		border-top: dashed 0.1vw #00000052;
-		z-index: -1;
+		z-index: 1;
 	}
 	.streakWrapper {
 		display: grid;

@@ -333,7 +333,7 @@
       position: absolute;
       height: 189vw;
       width: 16.7vw;
-      border-right: dashed 0.5vw #fff;
+      border-right: dashed 0.3vw #fff;
       transform: rotate(45deg);
       top: -36.6vh;
       z-index: 0; }
@@ -341,7 +341,7 @@
       position: absolute;
       height: 200vw;
       width: 16.7vw;
-      border-right: dashed 0.1vw #fff;
+      border-right: dashed 0.2vw #fff;
       transform: rotate(60deg);
       top: -40.1vh;
       z-index: 0; }
@@ -349,7 +349,7 @@
       position: absolute;
       height: 200vw;
       width: 16.7vw;
-      border-right: dashed 0.1vw #fff;
+      border-right: dashed 0.2vw #fff;
       transform: rotate(75deg);
       top: -40.7vh;
       z-index: 0; }
@@ -357,7 +357,7 @@
       position: absolute;
       height: 200vw;
       width: 16.7vw;
-      border-right: dashed 0.5vw #fff;
+      border-right: dashed 0.3vw #fff;
       transform: rotate(90deg);
       top: -41.6vh;
       z-index: 0; }
@@ -381,7 +381,8 @@
         font-size: 2vh;
         justify-content: center;
         align-items: center;
-        top: 14vh; }
+        top: 14vh;
+        margin-top: 3vh; }
         .tech .grid__software .contact__software .redbar-contact {
           width: 8vw;
           height: 2vh;
@@ -432,9 +433,9 @@
       .tech .grid__software .icons__software-linkedIn {
         width: 17vw;
         margin-left: 0vw;
-        margin-top: 0vw;
-        padding-left: 3vw;
-        padding-bottom: 2vw;
+        margin-top: 2vh;
+        padding-left: 0vw;
+        padding-bottom: 0vw;
         filter: grayscale(1) brightness(3); }
       .tech .grid__software .logo__software {
         grid-area: 1/ 2 / 2/ 2;
@@ -492,7 +493,7 @@
           border-top: dashed 0.12vw #b01a1a00;
           border-bottom: dashed 0.12vw #b01a1a00;
           cursor: pointer;
-          width: 15vw;
+          width: 45vw;
           display: flex;
           align-items: center;
           justify-content: center;
