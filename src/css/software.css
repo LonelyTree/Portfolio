@@ -281,11 +281,9 @@
           border-top: dashed 0.12vw #9d000078;
           border-bottom: dashed 0.12vw #9d000078;
           box-shadow: 0 0 0.4 #9d000078; }
-        .tech .grid__software .projects .element .elementFlicker {
-          padding: 0.5vw 2.5vw 0.5vw 2.5vw; }
-          .tech .grid__software .projects .element .elementFlicker:hover {
-            animation: flicker infinite 500ms;
-            color: #ff0000a1; }
+        .tech .grid__software .projects .element .elementFlicker:hover {
+          animation: flicker infinite 500ms;
+          color: #ff0000a1; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .modal {
@@ -505,8 +503,6 @@
             border-top: dashed 0.12vw #9d000078;
             border-bottom: dashed 0.12vw #9d000078;
             box-shadow: 0 0 0.4 #9d000078; }
-          .tech .grid__software .projects .element .elementFlicker {
-            padding: 0.5vw 2.5vw 0.5vw 2.5vw; }
-            .tech .grid__software .projects .element .elementFlicker:hover {
-              animation: flicker infinite 500ms;
-              color: red; } }
+          .tech .grid__software .projects .element .elementFlicker:hover {
+            animation: flicker infinite 500ms;
+            color: red; } }

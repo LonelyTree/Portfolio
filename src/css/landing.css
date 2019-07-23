@@ -92,6 +92,8 @@
     opacity: 0.05536; } }
 
 html {
+  background: black;
+  overflow: hidden;
   font-family: 'Inconsolata', monospace; }
 
 a {

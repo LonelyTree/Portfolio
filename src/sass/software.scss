@@ -370,7 +370,6 @@
 					box-shadow: 0 0 0.4 #9d000078;
 				}
 				.elementFlicker {
-					padding: 0.5vw 2.5vw 0.5vw 2.5vw;
 					&:hover {
 						animation: flicker infinite 500ms;
 						color: #ff0000a1;
@@ -639,7 +638,6 @@
 						box-shadow: 0 0 0.4 #9d000078;
 					}
 					.elementFlicker {
-						padding: 0.5vw 2.5vw 0.5vw 2.5vw;
 						&:hover {
 							animation: flicker infinite 500ms;
 							color: red;
