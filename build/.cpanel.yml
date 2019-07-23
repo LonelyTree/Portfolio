@@ -3,6 +3,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home4/cahworks/public_html/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp -R build/static/css $DEPLOYPATH
-    - /bin/cp -R build/static/js $DEPLOYPATH
-    - /bin/cp -R build/static/media $DEPLOYPATH
+    - /bin/cp -R static/css $DEPLOYPATH
+    - /bin/cp -R static/js $DEPLOYPATH
+    - /bin/cp -R static/media $DEPLOYPATH
