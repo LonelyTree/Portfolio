@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import GitLogo from '../../img/GitHub-Mark-120px-plus.png'
 import InstaLogo from '../../img/glyph-logo_May2016.png'
 import LinkLogo from '../../img/LI-China-In-Bug.png'
+import LinkLogoSquare from '../../img/LI-China-In-Square.png'
 import ResumeLogo from '../../img/CV.png'
 import Logo from '../../img/giraffe.png'
 import Coder from '../../img/programmedMini.png'
@@ -132,6 +133,10 @@ class Landing extends Component {
 								className="grid__linkedIn"
 								href="https://www.linkedin.com/in/cahworks/"
 							>
+								<img
+									className="icons__software-click icons__software-linkedIn square"
+									src={LinkLogoSquare}
+								/>
 								<img
 									className="icons__click icons__linkedIn a__icon-linkedIn"
 									alt="LinkedIn Logo"
