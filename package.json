@@ -8,26 +8,24 @@
 		"jquery": "^3.4.1",
 		"node-sass": "^4.12.0",
 		"normalize.css": "^8.0.1",
-		"pixi.js": "^5.0.4",
-		"react": "^16.8.6",
-		"react-dom": "^16.8.6",
+		"pixi.js": "^5.1.5",
+		"react": "^16.10.2",
+		"react-dom": "^16.10.2",
 		"react-pdf": "^4.1.0",
 		"react-responsive-modal": "^4.0.1",
-		"react-router-dom": "^5.0.1",
+		"react-router-dom": "^5.1.2",
 		"react-scripts": "3.0.1",
-		"react-scroll": "^1.7.11",
+		"react-scroll": "^1.7.14",
 		"react-spring": "^8.0.23",
-		"styled-components": "^4.3.2",
-		"typescript": "^3.4.5"
+		"styled-components": "^4.4.0",
+		"typescript": "^3.6.4"
 	},
 	"scripts": {
-		"start": "react-scripts start",
+		"start": "BROWSER=Firefox_Developer_Edition react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"compile:landing": "node-sass src/sass/landing.scss src/css/landing.css -w",
-		"compile:software": "node-sass src/sass/software.scss src/css/software.css -w",
-		"compile:foundation": "node-sass src/sass/foundation.scss src/css/foundation.css"
+		"compile:sass": "node-sass --watch src/sass -o src/css"
 	},
 	"eslintConfig": {
 		"extends": "react-app"

@@ -113,7 +113,7 @@ a {
   font-size: 1vw;
   background: #ff6530;
   position: relative;
-  overflow: hidden; }
+  overflow: scroll; }
   .landing .grid {
     display: grid;
     grid-template-columns: 17% 40% 40%;
