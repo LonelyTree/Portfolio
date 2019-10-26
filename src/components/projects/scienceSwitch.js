@@ -4,7 +4,9 @@ import {
 	Reactiv,
 	React_Hooks,
 	SASS,
-	Basic,
+	HTML,
+	CSS,
+	JS,
 	Confetti,
 	React_Spring,
 } from '../logos'
@@ -21,14 +23,15 @@ const Scifi = () => {
 				than 7 clicks!
 			</p>
 			{ScifiImages()}
-			<h4 className="projectTools">Utilized</h4>
 			<div className="utilized">
 				{Reactiv()}
 				{React_Hooks()}
 				{React_Spring()}
 				{Confetti()}
 				{SASS()}
-				{Basic()}
+				{HTML()}
+				{CSS()}
+				{JS()}
 			</div>
 		</div>
 	)

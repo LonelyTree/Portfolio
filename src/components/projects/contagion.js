@@ -1,6 +1,6 @@
 import React from 'react'
 import { ContagionImages } from '../images'
-import { Basic, JQuery, Gmaps } from '../logos'
+import { JQuery, Gmaps, HTML, JS, CSS } from '../logos'
 
 const Contagion = () => {
 	return (
@@ -16,11 +16,12 @@ const Contagion = () => {
 				wrong decision.
 			</p>
 			{ContagionImages()}
-			<h4 className="projectTools">Utilized</h4>
 			<div className="utilized">
 				{Gmaps()}
 				{JQuery()}
-				{Basic()}
+				{HTML()}
+				{CSS()}
+				{JS()}
 			</div>
 		</div>
 	)

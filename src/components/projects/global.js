@@ -1,7 +1,9 @@
 import React from 'react'
 import { GlobalImages } from '../images'
 import {
-	Basic,
+	HTML,
+	CSS,
+	JS,
 	MongoDB,
 	StyledComp,
 	Nasa,
@@ -27,7 +29,6 @@ const Global = () => {
 				any point in the world and observe the heavens.
 			</p>
 			{GlobalImages()}
-			<h4 className="projectTools">Utilized</h4>
 			<div className="utilized">
 				{Reactiv()}
 				{StyledComp()}
@@ -40,7 +41,9 @@ const Global = () => {
 				{MongoDB()}
 				{Mongoose()}
 				{JQuery()}
-				{Basic()}
+				{HTML()}
+				{CSS()}
+				{JS()}
 			</div>
 		</div>
 	)

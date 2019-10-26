@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Welcome } from '../forFun'
+import printJS from 'print-js'
 import arrow from '../../img/curve_arrow.png'
 import NeuroDrome from '../projects/neurodrome'
 import Global from '../projects/global'
@@ -13,7 +14,7 @@ import LinkLogoSquare from '../../img/LI-China-In-Square.png'
 import ResumeLogo from '../../img/CV.png'
 import Logo from '../../img/giraffe.png'
 import Resume from '../resume'
-import Download from '../../img/alexHughesResume.pdf'
+import Download from '../../docs/alexHughesResume.pdf'
 import styled from 'styled-components'
 import Modal from 'react-responsive-modal'
 import 'normalize.css'
@@ -65,7 +66,7 @@ class Landing extends Component {
 						985.29O.9515
 					</p>
 					<hr />
-					<p
+					<div
 						style={{
 							textAlign: 'center',
 							lineHeight: '1.5rem',
@@ -111,7 +112,7 @@ class Landing extends Component {
 						>
 							Download
 						</a>
-					</p>
+					</div>
 				</Modal>
 				<Modal
 					classNames={{ modal: 'contact_modal' }}
@@ -134,6 +135,13 @@ class Landing extends Component {
 							Download
 						</p>
 					</a>
+					<button
+						type="button"
+						className="print"
+						onClick={printJS('../../docs/Alex_Hughes_Fall_2019.docx')}
+					>
+						Print PDF
+					</button>
 				</Modal>
 				{Welcome()}
 				<div className="name">
@@ -183,6 +191,16 @@ class Landing extends Component {
 						</h1>
 						<div className="icons">
 							<a
+								className="grid__instagram"
+								href="https://www.instagram.com/onhughes/"
+							>
+								<img
+									className="icons__click a__icon-instagram"
+									alt="Instagram Logo"
+									src={InstaLogo}
+								/>
+							</a>
+							<a
 								className="grid__linkedIn"
 								href="https://www.linkedin.com/in/cahworks/"
 							>
@@ -195,16 +213,6 @@ class Landing extends Component {
 									className="icons__click icons__linkedIn a__icon-linkedIn"
 									alt="LinkedIn Logo"
 									src={LinkLogo}
-								/>
-							</a>
-							<a
-								className="grid__instagram"
-								href="https://www.instagram.com/onhughes/"
-							>
-								<img
-									className="icons__click a__icon-instagram"
-									alt="Instagram Logo"
-									src={InstaLogo}
 								/>
 							</a>
 							<a className="grid__github" href="https://github.com/LonelyTree">
@@ -225,7 +233,7 @@ class Landing extends Component {
 					</div>
 				</div>
 				<div className="skills">
-					<h3 className="skillsHeader">SKILLS // PROFICIENCIES</h3>
+					<h3 className="skillsHeader">SKILLS</h3>
 					<p className="skillsList">
 						{' '}
 						HTML/CSS | JAVASCRIPT | REACT | REDUX | PYTHON | C# | JQUERY |
@@ -240,7 +248,7 @@ class Landing extends Component {
 				</div>
 				<div className="projects">
 					<h1 className="header_special">PROJECTS</h1>
-					<div>
+					<div className="project_container">
 						<Global />
 						<Scifi />
 						<Contagion />
@@ -248,8 +256,13 @@ class Landing extends Component {
 					</div>
 					<h1 className="header">EXPERIMENTS</h1>
 					<NeuroDrome />
-					<a href="https://github.com/LonelyTree">
+					<a href="https://github.com/LonelyTree" className="clickGithub">
 						<h1 className="header">FIND ME ON GITHUB!</h1>
+						<img
+							className="bottom_github_icon"
+							alt="GitHub Logo"
+							src={GitLogo}
+						/>
 					</a>
 					<div className="contact_me">
 						<img

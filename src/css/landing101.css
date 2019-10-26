@@ -30,7 +30,7 @@ a {
   grid-template-rows: repeat(8, 12.5%);
   width: 100%;
   height: 15%;
-  margin-left: -25%; }
+  margin-left: -35%; }
 
 .contact {
   font-size: 2vw;
@@ -42,11 +42,11 @@ a {
   margin-top: 0vw; }
 
 .a__linkedIn {
-  grid-area: 5/1/5/1;
+  grid-area: 5/3/5/3;
   margin: 0 auto; }
 
 .a__instagram {
-  grid-area: 5/3/5/3;
+  grid-area: 5/1/5/1;
   margin: 0 auto; }
 
 .a__github {
@@ -63,8 +63,10 @@ a {
   cursor: pointer;
   color: black;
   margin: 0 auto;
+  margin-top: 1vw;
   text-transform: lowercase;
-  font-family: raleway; }
+  font-family: raleway;
+  transform: rotate(45deg); }
 
 .icons {
   position: relative;
@@ -78,31 +80,31 @@ a {
     cursor: pointer;
     grid-area: 4/7/4/7;
     width: 4.3vw;
-    transform: rotate(0deg);
+    transform: rotate(90deg);
     margin: 0 auto;
     padding: 0; }
   .icons .grid__linkedIn {
-    grid-area: 4/1/4/1;
+    grid-area: 4/3/4/3;
     margin: 0 auto; }
     .icons .grid__linkedIn .square {
       display: flex;
       width: 5.5vw;
-      transform: rotate(0deg);
+      transform: rotate(90deg);
       margin: 0 auto;
       padding: 0;
       filter: grayscale(1) brightness(0); }
     .icons .grid__linkedIn .a__icon-linkedIn {
       width: 30vh;
-      transform: rotate(0deg);
+      transform: rotate(90deg);
       margin: 0 auto;
       padding: 0;
       display: none; }
   .icons .grid__instagram {
-    grid-area: 4/3/4/3;
+    grid-area: 4/1/4/1;
     margin: 0 auto; }
     .icons .grid__instagram .a__icon-instagram {
       width: 5.5vw;
-      transform: rotate(0deg);
+      transform: rotate(90deg);
       margin: 0 auto;
       padding: 0; }
   .icons .grid__github {
@@ -110,7 +112,7 @@ a {
     margin: 0 auto; }
     .icons .grid__github .a__icon-github {
       width: 5.5vw;
-      transform: rotate(0deg);
+      transform: rotate(90deg);
       margin: 0 auto;
       padding: 0; }
 
@@ -148,14 +150,16 @@ a {
 
 .quote {
   grid-area: 1/6/1/9;
-  font-family: raleway; }
+  font-family: raleway;
+  font-size: 1.1vw; }
 
 .philosophy,
 .source,
 .location,
 .underName {
   background: #ff7a00;
-  padding: 0 1vw; }
+  padding: 0 1vw;
+  font-size: 1.5vw; }
 
 .skills {
   grid-area: 4/3/4/8;
@@ -169,6 +173,7 @@ a {
   .skills .skillsList {
     font-family: raleway;
     line-height: 2vw;
+    font-size: 1vw;
     word-spacing: 0.4vw;
     background: #ff7a00;
     padding: 2vw;
@@ -200,7 +205,8 @@ a {
 
 .linked {
   color: red;
-  text-align: center; }
+  text-align: center;
+  font-size: 2vw; }
 
 .para {
   width: 100%;
@@ -235,7 +241,11 @@ a {
   .utilized h1 {
     font-size: 1vw;
     font-family: Raleway;
-    text-align: center; }
+    text-align: center;
+    background: #ff7a00;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    padding: 0.1vw 1vw; }
   .utilized .logos {
     width: 45%; }
 
@@ -255,7 +265,8 @@ a {
   height: 15vw;
   display: inline-flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  width: 100%; }
 
 .projectName {
   font-family: Raleway;
@@ -263,11 +274,11 @@ a {
   text-align: center;
   font-style: italic;
   background: #ff7a00;
-  width: auto;
-  padding: 0 2vw; }
+  padding: 0 2vw;
+  width: 100%; }
 
 .project-Wrapper {
-  width: 52vw;
+  width: 50vw;
   border-top: black solid 0.5vw;
   border-bottom: black solid 0.5vw;
   display: inline-flex;
@@ -279,8 +290,7 @@ a {
   position: absolute;
   transform: rotateY(145deg);
   left: 18vw;
-  height: 10vw;
-  margin-top: -10vw; }
+  height: 10vw; }
 
 .contact_me {
   margin-bottom: 20vw;
@@ -316,3 +326,334 @@ a {
   position: absolute;
   left: 43vw;
   margin-top: 40vw; }
+
+.bottom_github_icon {
+  width: 10vw; }
+
+.clickGithub {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+@media screen and (max-width: 480px) {
+  a {
+    text-decoration: none;
+    color: black; }
+  .landing {
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 10%);
+    display: grid;
+    width: 100vw;
+    position: relative;
+    overflow: scroll;
+    height: 200vw;
+    background: #9d978069; }
+  .sidebar {
+    width: 90vw;
+    height: 15vh;
+    position: fixed;
+    left: 1vw;
+    top: 1vh;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff7a00;
+    padding: 0 4vw;
+    z-index: 100;
+    box-shadow: 0px -11px 4vw 4px black; }
+  .sidebar-Wrapper {
+    display: grid;
+    transform: rotate(0deg);
+    flex-direction: unset;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: repeat(8, 12.5%);
+    width: 100%;
+    height: 100%;
+    margin-left: 0%; }
+  .contact {
+    font-size: 5vw;
+    margin: 0.67em 0;
+    grid-area: 8/1/10/9;
+    transform: rotate(0deg);
+    font-family: raleway;
+    border-top: solid black 0.5vw;
+    margin-top: 2vw;
+    text-align: center;
+    line-height: 15vw;
+    background: black;
+    color: white; }
+  .a__linkedIn {
+    grid-area: 5/3/5/3;
+    margin: 0 auto; }
+  .a__instagram {
+    grid-area: 5/1/5/1;
+    margin: 0 auto; }
+  .a__github {
+    grid-area: 5/5/5/5;
+    margin: 0 auto; }
+  .resumeText {
+    grid-area: 5/7/5/7;
+    text-align: center; }
+  .titles {
+    font-size: 1.3vw;
+    height: 2rem;
+    cursor: pointer;
+    color: black;
+    margin: 0 auto;
+    margin-top: 1vw;
+    text-transform: lowercase;
+    font-family: raleway;
+    transform: rotate(0deg);
+    display: none; }
+  .icons {
+    position: relative;
+    width: 100%;
+    display: inherit;
+    grid-area: 7/1/7/9;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: repeat(8, 12.5%);
+    margin-top: -25%; }
+    .icons .icons__resume {
+      cursor: pointer;
+      grid-area: 4/1/4/3;
+      width: 11.5vw;
+      transform: rotate(0deg);
+      margin: 0 auto;
+      padding: 0; }
+    .icons .grid__linkedIn {
+      grid-area: 4/3/4/5;
+      margin: 0 auto; }
+      .icons .grid__linkedIn .square {
+        display: flex;
+        width: 15vw;
+        transform: rotate(0deg);
+        margin: 0 auto;
+        padding: 0;
+        filter: grayscale(1) brightness(0); }
+      .icons .grid__linkedIn .a__icon-linkedIn {
+        width: 30vh;
+        transform: rotate(0deg);
+        margin: 0 auto;
+        padding: 0;
+        display: none; }
+    .icons .grid__instagram {
+      grid-area: 4/7/4/9;
+      margin: 0 auto; }
+      .icons .grid__instagram .a__icon-instagram {
+        width: 15vw;
+        transform: rotate(0deg);
+        margin: 0 auto;
+        padding: 0; }
+    .icons .grid__github {
+      grid-area: 4/5/4/7;
+      margin: 0 auto; }
+      .icons .grid__github .a__icon-github {
+        width: 15vw;
+        transform: rotate(0deg);
+        margin: 0 auto;
+        padding: 0; }
+  .icons__click {
+    border-style: none;
+    width: 4vw;
+    margin: 2.4vw 1vw;
+    transform: rotate(-90deg);
+    cursor: pointer; }
+  .icons__linkedIn {
+    width: 8vw;
+    margin-left: -1vw;
+    margin-top: -2.3vw;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    filter: grayscale(1) brightness(0); }
+  .logo {
+    width: 20vw;
+    height: 19vw;
+    margin-top: 7vh;
+    -webkit-clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+    background: black;
+    border: black solid;
+    position: fixed;
+    right: 3vh;
+    display: none; }
+  .name {
+    grid-area: 4/2/4/10;
+    font-family: Raleway;
+    font-size: 6vw;
+    margin-left: 0vw; }
+  .quote {
+    grid-area: 7/3/7/9;
+    font-family: raleway;
+    font-size: 4.1vw; }
+  .philosophy,
+  .source,
+  .location,
+  .underName {
+    background: #ff7a00;
+    padding: 0 1vw;
+    font-size: 5.5vw; }
+  .skills {
+    grid-area: 10/1/10/11;
+    text-align: center;
+    margin-top: 0vh;
+    padding: 0 2vw; }
+    .skills .skillsHeader {
+      font-family: raleway;
+      line-height: 4vw;
+      font-size: 7.5vw;
+      letter-spacing: 1vw; }
+    .skills .skillsList {
+      font-family: raleway;
+      line-height: 6vw;
+      font-size: 4vw;
+      word-spacing: 0.4vw;
+      background: #ff7a00;
+      padding: 3vw;
+      font-weight: 700; }
+  .projects {
+    grid-area: 11/1/11/11;
+    z-index: 10;
+    margin-top: 142vw; }
+  .imgholder {
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    padding: 0vw;
+    flex-direction: column; }
+  .img1 {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%; }
+  .img2 {
+    display: inline-block;
+    width: 100%; }
+  .imgsrc {
+    width: 100%;
+    border: solid black 0.1vw; }
+  .linked {
+    color: red;
+    text-align: center;
+    font-size: 7vw; }
+  .para {
+    width: 100%;
+    font-family: raleway;
+    text-align: center;
+    line-height: 7vw;
+    font-size: 5.2vw; }
+  .header {
+    font-size: 10vw;
+    text-align: center;
+    font-family: Raleway;
+    margin: 5vw 0;
+    letter-spacing: 1vw; }
+  .header_special {
+    font-size: 10vw;
+    text-align: center;
+    font-family: Raleway;
+    letter-spacing: 1vw;
+    margin-top: 18vw;
+    margin-bottom: 7vw; }
+  .utilized {
+    display: inline-flex;
+    width: 90vw;
+    height: auto;
+    flex-wrap: wrap;
+    margin-bottom: 4vw;
+    justify-content: center;
+    padding: 1vw; }
+    .utilized h1 {
+      font-size: 5vw;
+      font-family: Raleway;
+      text-align: center;
+      background: #ff7a00;
+      margin-top: 2vw;
+      margin-bottom: 1vw;
+      padding: 0.1vw 1vw; }
+    .utilized .logos {
+      width: 60%; }
+  .imagediv {
+    width: 30vw;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vw 7vw; }
+  .projectTools {
+    font-family: Raleway;
+    font-style: italic;
+    border-bottom: 0.1vw black inset;
+    text-align: center; }
+  .name-Wrapper {
+    height: 15vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; }
+  .projectName {
+    font-family: Raleway;
+    font-size: 7vw;
+    text-align: center;
+    font-style: italic;
+    background: #ff7a00;
+    padding: 0 2vw;
+    width: 100%; }
+  .project-Wrapper {
+    width: 100%;
+    border-top: black solid 0.5vw;
+    border-bottom: black solid 0.5vw;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .project_container {
+    padding: 0 4vw;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .contact_arrow {
+    position: absolute;
+    transform: rotateY(145deg);
+    left: 18vw;
+    height: 10vw;
+    display: none; }
+  .contact_me {
+    margin-bottom: 20vw;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+  .contact_header {
+    font-size: 12vw;
+    text-align: center;
+    font-family: Raleway;
+    letter-spacing: 1vw;
+    border-top: black solid 0.5vw;
+    padding-top: 6vw; }
+  .contact_info {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0 2v;
+    flex-direction: column;
+    align-items: center; }
+  .contact_by {
+    background: #ff7a00;
+    padding: 1vw;
+    font-size: 4.3vw;
+    margin: 3vw;
+    font-weight: 600;
+    line-height: 11vw; }
+  .jumper {
+    position: absolute;
+    left: 43vw;
+    margin-top: 50vw; }
+  .bottom_github_icon {
+    width: 10vw; }
+  .clickGithub {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }

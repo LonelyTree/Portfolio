@@ -13,6 +13,9 @@ import {
 	Postgres,
 	StyledComp,
 	SASS,
+	HTML,
+	CSS,
+	JS,
 } from '../logos'
 
 const NeuroDrome = () => {
@@ -27,11 +30,12 @@ const NeuroDrome = () => {
 				with Unity's AI for the battle of logical domination.
 			</p>
 			{NeuroDromeImages()}
-			<h4 className="projectTools">Utilized</h4>
 			<div className="utilized">
 				{Unity()} {MlAgents()} {Reactiv()} {Csharp()} {Python()} {Node()}{' '}
 				{Express()} {MongoDB()}
-				{Mongoose()} {Postgres()} {StyledComp()} {SASS()}
+				{Mongoose()} {Postgres()} {StyledComp()} {SASS()} {HTML()}
+				{CSS()}
+				{JS()}
 			</div>
 		</div>
 	)

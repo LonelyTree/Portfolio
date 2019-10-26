@@ -1,7 +1,6 @@
 import React from 'react'
 import CSharp from '../../img/logos/LOGO_CSharp.png'
 import GMaps from '../../img/logos/LOGO_Google.png'
-import BAsic from '../../img/logos/LOGO_HTML_CSS_JS.png'
 import MLAgents from '../../img/logos/LOGO_MLAgents.png'
 import MOngoDB from '../../img/logos/LOGO_MongoDB.png'
 import NAsa from '../../img/logos/LOGO_NASA.png'
@@ -10,7 +9,6 @@ import POstgres from '../../img/logos/LOGO_Postgresql.png'
 import PYthon from '../../img/logos/LOGO_Python.png'
 import REactiv from '../../img/logos/LOGO_React.png'
 import SYyledComp from '../../img/logos/LOGO_StyledComponents.png'
-import TEnsorFlow from '../../img/logos/LOGO_Tensorflow.png'
 import UNity from '../../img/logos/LOGO_Unity3d.png'
 import Jquere from '../../img/logos/LOGO_jQuery.png'
 import DS from '../../img/logos/LOGO_Data_Set.png'
@@ -22,7 +20,43 @@ import Sass from '../../img/logos/LOGO_SASS.png'
 import Hooks from '../../img/logos/LOGO_React_Hooks.png'
 import Confettijs from '../../img/logos/LOGO_Confetti.png'
 import Spring from '../../img/logos/LOGO_React_Spring.png'
+import Html from '../../img/logos/LOGO_HTML.png'
+import Css from '../../img/logos/LOGO_CSSt.png'
+import Js from '../../img/logos/LOGO_JavaScript.png'
+import Tensor from '../../img/logos/LOGO_Tensorflow.png'
 
+export const TensorFlow = () => {
+	return (
+		<div className="imagediv">
+			<h1>TensorFlow</h1>
+			<img className="logos" src={Tensor} alt="Tensorflow LOGO" />
+		</div>
+	)
+}
+export const JS = () => {
+	return (
+		<div className="imagediv">
+			<h1>Javascript</h1>
+			<img className="logos" src={Js} alt="Javascript LOGO" />
+		</div>
+	)
+}
+export const HTML = () => {
+	return (
+		<div className="imagediv">
+			<h1>HTML</h1>
+			<img className="logos" src={Html} alt="HTML LOGO" />
+		</div>
+	)
+}
+export const CSS = () => {
+	return (
+		<div className="imagediv">
+			<h1>CSS</h1>
+			<img className="logos" src={Css} alt="CSS LOGO" />
+		</div>
+	)
+}
 export const JQuery = () => {
 	return (
 		<div className="imagediv">
@@ -87,14 +121,6 @@ export const Unity = () => {
 		</div>
 	)
 }
-export const TensorFlow = () => {
-	return (
-		<div className="imagediv">
-			<h1>TensorFlow</h1>
-			<img className="logos" src={TEnsorFlow} alt="TensorFlow LOGO" />
-		</div>
-	)
-}
 export const StyledComp = () => {
 	return (
 		<div className="imagediv">
@@ -154,23 +180,15 @@ export const MongoDB = () => {
 export const MlAgents = () => {
 	return (
 		<div className="imagediv">
-			<h1>Unity Machine Learning Agents</h1>
+			<h1>Unity ML Agents</h1>
 			<img className="logos" src={MLAgents} alt="Unity ML AGENTS LOGO" />
-		</div>
-	)
-}
-export const Basic = () => {
-	return (
-		<div className="imagediv">
-			<h1>HTML/CSS/JS</h1>
-			<img className="logos" src={BAsic} alt="HTML/CSS/JS LOGO" />
 		</div>
 	)
 }
 export const DataSet = () => {
 	return (
 		<div className="imagediv">
-			<h1>Safe Parking LA DATA_SET</h1>
+			<h1>SafeLA DATA_SET</h1>
 			<img className="logos" src={DS} alt="Data Set LOGO" />
 		</div>
 	)

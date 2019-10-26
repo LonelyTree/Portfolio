@@ -1,6 +1,6 @@
 import React from 'react'
 import { SafeLAImages } from '../images'
-import { Reactiv, DataSet, Basic, SASS } from '../logos'
+import { Reactiv, DataSet, HTML, CSS, JS, SASS } from '../logos'
 
 const SafeLa = () => {
 	return (
@@ -15,12 +15,13 @@ const SafeLa = () => {
 				our final Hackathon.
 			</p>
 			{SafeLAImages()}
-			<h4 className="projectTools">Utilized</h4>
 			<div className="utilized">
 				{Reactiv()}
-				{DataSet()}
 				{SASS()}
-				{Basic()}
+				{HTML()}
+				{CSS()}
+				{JS()}
+				{DataSet()}
 			</div>
 		</div>
 	)
