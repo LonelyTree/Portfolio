@@ -10,7 +10,7 @@ a {
 	position: relative;
 	overflow: scroll;
 	height: 200vw;
-	background: #9d978069;
+	background: white;
 }
 .sidebar {
 	width: 30vw;
@@ -152,10 +152,11 @@ a {
 	right: 3vh;
 }
 .name {
-	grid-area: 2/3/2/7;
+	grid-area: 2/3/2/8;
 	font-family: Raleway;
 	font-size: 2vw;
-	margin-left: 2vw;
+	margin-left: 0vw;
+	margin-top: -7vw;
 }
 .quote {
 	grid-area: 1/6/1/9;
@@ -166,8 +167,9 @@ a {
 .source,
 .location,
 .underName {
-	background: #ff7a00;
-	padding: 0 1vw;
+	background: black;
+	color: white;
+	padding: 3px 1vw;
 	font-size: 1.5vw;
 }
 .skills {
@@ -185,7 +187,8 @@ a {
 		line-height: 2vw;
 		font-size: 1vw;
 		word-spacing: 0.4vw;
-		background: #ff7a00;
+		background: black;
+		color: white;
 		padding: 2vw;
 		font-weight: 700;
 	}
@@ -286,7 +289,8 @@ a {
 	font-size: 4vw;
 	text-align: center;
 	font-style: italic;
-	background: #ff7a00;
+	background: black;
+	color: white;
 	padding: 0 2vw;
 	width: 100%;
 }
@@ -329,8 +333,9 @@ a {
 		padding: 0 2v;
 	}
 	&_by {
-		background: #ff7a00;
+		background: black;
 		padding: 1vw;
+		color: white;
 		font-size: 1.3vw;
 		margin: 0 auto;
 		font-weight: 600;
@@ -376,7 +381,8 @@ a {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		background: #ff7a00;
+		background: black;
+		color: white;
 		padding: 0 4vw;
 		z-index: 100;
 		box-shadow: 0px -11px 4vw 4px black;
@@ -531,9 +537,10 @@ a {
 	.source,
 	.location,
 	.underName {
-		background: #ff7a00;
+		background: black;
 		padding: 0 1vw;
 		font-size: 5.5vw;
+		color: white;
 	}
 	.skills {
 		grid-area: 10/1/10/11;
@@ -551,7 +558,8 @@ a {
 			line-height: 6vw;
 			font-size: 4vw;
 			word-spacing: 0.4vw;
-			background: #ff7a00;
+			background: black;
+			color: white;
 			padding: 3vw;
 			font-weight: 700;
 		}
@@ -654,7 +662,8 @@ a {
 		font-size: 7vw;
 		text-align: center;
 		font-style: italic;
-		background: #ff7a00;
+		background: black;
+		color: white;
 		padding: 0 2vw;
 		width: 100%;
 	}

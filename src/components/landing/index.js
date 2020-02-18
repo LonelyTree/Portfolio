@@ -3,10 +3,9 @@ import { Welcome } from '../forFun'
 import printJS from 'print-js'
 import arrow from '../../img/curve_arrow.png'
 import NeuroDrome from '../projects/neurodrome'
-import Global from '../projects/global'
 import Scifi from '../projects/scienceSwitch'
-import SafeLa from '../projects/safela'
 import Contagion from '../projects/contagion'
+import BarberShop from '../projects/froshsBarbershop'
 import GitLogo from '../../img/GitHub-Mark-120px-plus.png'
 import InstaLogo from '../../img/glyph-logo_May2016.png'
 import LinkLogo from '../../img/LI-China-In-Bug.png'
@@ -45,7 +44,7 @@ class Landing extends Component {
 	}
 	render() {
 		return (
-			<div className="landing">
+			<div className='landing'>
 				<Modal
 					classNames={{ modal: 'contact_modal' }}
 					center={true}
@@ -57,7 +56,7 @@ class Landing extends Component {
 						<span style={{ fontWeight: '700', fontSize: '1.4rem' }}>
 							Email:{' '}
 						</span>
-						<a href="mailto:alexhugh121@gmail.com">alexhugh121@gmail.com</a>
+						<a href='mailto:alexhugh121@gmail.com'>alexhugh121@gmail.com</a>
 					</p>
 					<p>
 						<span style={{ fontWeight: '700', fontSize: '1.4rem' }}>
@@ -92,7 +91,7 @@ class Landing extends Component {
 								padding: '0 1vw',
 							}}
 							onClick={this.resumeView}
-							title="Experience!"
+							title='Experience!'
 						>
 							View
 						</div>
@@ -107,7 +106,7 @@ class Landing extends Component {
 								background: '#ff7a00',
 								padding: '0 1vw',
 							}}
-							title="Here ya go!"
+							title='Here ya go!'
 							download
 						>
 							Download
@@ -136,105 +135,105 @@ class Landing extends Component {
 						</p>
 					</a>
 					<button
-						type="button"
-						className="print"
+						type='button'
+						className='print'
 						onClick={printJS('../../docs/Alex_Hughes_Fall_2019.docx')}
 					>
 						Print PDF
 					</button>
 				</Modal>
 				{Welcome()}
-				<div className="name">
-					<p className="location">
+				<div className='name'>
+					<p className='location'>
 						Los Angeles, CA / Portland, OR / New Orleans, LA
 					</p>
 					<h1>Alex Hughes</h1>
-					<p className="underName">Evolution in Life</p>
+					<p className='underName'>Happy Little Programs</p>
 				</div>
-				<div className="quote" id="top">
+				{/* <div className="quote" id="top">
 					<h1 className="philosophy"> - philosophy</h1>
 					<p className="proverb">
 						"Knowledge belongs neither to the sense nor to the object because it
 						continues even on the destruction thereof."
 					</p>
 					<p className="source">-The Naya-Sutras Bk. III Ch. II </p>
-				</div>
-				<div className="logo">
+				</div> */}
+				<div className='logo'>
 					<LandImg
 						className={this.state.logo}
 						src={Logo}
 						alt="Giraffe logo, get it? because I'm tall...Ha...:("
 					/>
 				</div>
-				<div className="sidebar">
-					<div className="sidebar-Wrapper">
-						<h1 onClick={this.contact} title="Say Hello!" className="contact">
+				<div className='sidebar'>
+					<div className='sidebar-Wrapper'>
+						<h1 onClick={this.contact} title='Say Hello!' className='contact'>
 							Contact
 						</h1>
 						<a
-							className="a__linkedIn"
-							href="https://www.linkedin.com/in/cahworks/"
+							className='a__linkedIn'
+							href='https://www.linkedin.com/in/cahworks/'
 						>
-							<h1 className="titles">LinkedIn</h1>
+							<h1 className='titles'>LinkedIn</h1>
 						</a>
 						<a
-							className="a__instagram"
-							href="https://www.instagram.com/onhughes/"
+							className='a__instagram'
+							href='https://www.instagram.com/onhughes/'
 						>
-							<h1 className="titles">Instagram</h1>
+							<h1 className='titles'>Instagram</h1>
 						</a>
-						<a className="a__github" href="https://github.com/LonelyTree">
-							<h1 className="titles">Github</h1>
+						<a className='a__github' href='https://github.com/LonelyTree'>
+							<h1 className='titles'>Github</h1>
 						</a>
-						<h1 className="titles resumeText" onClick={this.resumeView}>
+						<h1 className='titles resumeText' onClick={this.resumeView}>
 							Resume / CV
 						</h1>
-						<div className="icons">
+						<div className='icons'>
 							<a
-								className="grid__instagram"
-								href="https://www.instagram.com/onhughes/"
+								className='grid__instagram'
+								href='https://www.instagram.com/onhughes/'
 							>
 								<img
-									className="icons__click a__icon-instagram"
-									alt="Instagram Logo"
+									className='icons__click a__icon-instagram'
+									alt='Instagram Logo'
 									src={InstaLogo}
 								/>
 							</a>
 							<a
-								className="grid__linkedIn"
-								href="https://www.linkedin.com/in/cahworks/"
+								className='grid__linkedIn'
+								href='https://www.linkedin.com/in/cahworks/'
 							>
 								<img
-									className="icons__software-click icons__software-linkedIn square"
+									className='icons__software-click icons__software-linkedIn square'
 									src={LinkLogoSquare}
-									alt="LinkedIn square LOGO"
+									alt='LinkedIn square LOGO'
 								/>
 								<img
-									className="icons__click icons__linkedIn a__icon-linkedIn"
-									alt="LinkedIn Logo"
+									className='icons__click icons__linkedIn a__icon-linkedIn'
+									alt='LinkedIn Logo'
 									src={LinkLogo}
 								/>
 							</a>
-							<a className="grid__github" href="https://github.com/LonelyTree">
+							<a className='grid__github' href='https://github.com/LonelyTree'>
 								<img
-									className="icons__click a__icon-github"
-									alt="GitHub Logo"
+									className='icons__click a__icon-github'
+									alt='GitHub Logo'
 									src={GitLogo}
 								/>
 							</a>
 							<img
 								onClick={this.resumeView}
-								className="icons__click icons__resume"
-								alt="Resume/CV Logo"
+								className='icons__click icons__resume'
+								alt='Resume/CV Logo'
 								src={ResumeLogo}
 								style={{ cursor: 'pointer' }}
 							/>
 						</div>
 					</div>
 				</div>
-				<div className="skills">
-					<h3 className="skillsHeader">SKILLS</h3>
-					<p className="skillsList">
+				<div className='skills'>
+					<h3 className='skillsHeader'>SKILLS</h3>
+					<p className='skillsList'>
 						{' '}
 						HTML/CSS | JAVASCRIPT | REACT | REDUX | PYTHON | C# | JQUERY |
 						MARKDOWN | FIREBASE | NODE.JS | EXPRESS | MONGODB | MONGOOSE |
@@ -246,38 +245,37 @@ class Landing extends Component {
 						SLACK | AIRTABLE | TODOIST |
 					</p>
 				</div>
-				<div className="projects">
-					<h1 className="header_special">PROJECTS</h1>
-					<div className="project_container">
-						<Global />
+				<div className='projects'>
+					<h1 className='header_special'>PROJECTS</h1>
+					<div className='project_container'>
 						<Scifi />
+						<BarberShop />
 						<Contagion />
-						<SafeLa />
 					</div>
-					<h1 className="header">EXPERIMENTS</h1>
+					<h1 className='header'>EXPERIMENTS</h1>
 					<NeuroDrome />
-					<a href="https://github.com/LonelyTree" className="clickGithub">
-						<h1 className="header">FIND ME ON GITHUB!</h1>
+					<a href='https://github.com/LonelyTree' className='clickGithub'>
+						<h1 className='header'>FIND ME ON GITHUB!</h1>
 						<img
-							className="bottom_github_icon"
-							alt="GitHub Logo"
+							className='bottom_github_icon'
+							alt='GitHub Logo'
 							src={GitLogo}
 						/>
 					</a>
-					<div className="contact_me">
+					<div className='contact_me'>
 						<img
-							className="contact_arrow"
+							className='contact_arrow'
 							src={arrow}
-							alt="look to the left for more ways to contact me! :)"
+							alt='look to the left for more ways to contact me! :)'
 						/>
-						<h1 className="contact_header">Alex Hughes</h1>
-						<div className="contact_info">
-							<a href="mailto:alexhugh121@gmail.com" className="contact_by">
+						<h1 className='contact_header'>Alex Hughes</h1>
+						<div className='contact_info'>
+							<a href='mailto:alexhugh121@gmail.com' className='contact_by'>
 								alexhugh121@gmail.com
 							</a>
-							<h2 className="contact_by">phone: 985.290.9515</h2>
+							<h2 className='contact_by'>phone: 985.290.9515</h2>
 						</div>
-						<a className="jumper" href="#top">
+						<a className='jumper' href='#top'>
 							Go to top
 						</a>
 					</div>

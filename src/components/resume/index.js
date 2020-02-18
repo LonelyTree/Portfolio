@@ -40,14 +40,14 @@ class Resume extends Component {
 						Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}
 					</p>
 					<button
-						type="button"
+						type='button'
 						disabled={pageNumber <= 1}
 						onClick={this.previousPage}
 					>
 						Previous
 					</button>
 					<button
-						type="button"
+						type='button'
 						disabled={pageNumber >= numPages}
 						onClick={this.nextPage}
 					>
