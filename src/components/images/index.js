@@ -11,6 +11,9 @@ import Scifi1 from '../../img/scifiMenu.png'
 import Scifi2 from '../../img/scifiAction.png'
 import Frosh1 from '../../img/FroshsMain.png'
 import Frosh2 from '../../img/FroshsContact.png'
+import Mixy1 from '../../img/mixyTop.png'
+import Mixy2 from '../../img/mixyBottom.png'
+import Lorem1 from '../../img/loremMemesum.png'
 
 export const GlobalImages = () => {
 	return (
@@ -139,6 +142,36 @@ export const FroshsBarbershopImages = () => {
 				/>
 				<a href='https://lonelytree.github.io/FroshsBarberShop/'>
 					<p className='linked'>LIVE</p>
+				</a>
+			</div>
+		</div>
+	)
+}
+export const MixyImages = () => {
+	return (
+		<div className='imgholder'>
+			<div className='img1'>
+				<img className='imgsrc' src={Mixy1} alt='Party Night Mixy Top' />
+				<a href='https://github.com/LonelyTree/PartyNightMixy'>
+					<p className='linked'>GITHUB</p>
+				</a>
+			</div>
+			<div className='img2'>
+				<img className='imgsrc' src={Mixy2} alt='Party Night Mixy Bottom' />
+				<a href='https://lonelytree.github.io/PartyNightMixy/'>
+					<p className='linked'>LIVE</p>
+				</a>
+			</div>
+		</div>
+	)
+}
+export const LoremMemesum = () => {
+	return (
+		<div className='imgholder'>
+			<div className='img1'>
+				<img className='imgsrc' src={Lorem1} alt='Lorem Memesum Instructions' />
+				<a href='https://github.com/LonelyTree/Lorem-Memesum#readme'>
+					<p className='linked'>GITHUB</p>
 				</a>
 			</div>
 		</div>

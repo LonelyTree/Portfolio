@@ -24,204 +24,231 @@ import Html from '../../img/logos/LOGO_HTML.png'
 import Css from '../../img/logos/LOGO_CSSt.png'
 import Js from '../../img/logos/LOGO_JavaScript.png'
 import Tensor from '../../img/logos/LOGO_Tensorflow.png'
+import MaterialUI from '../../img/logos/LOGO_MaterialUI.png'
+import Apol from '../../img/logos/LOGO_Apollo.png'
+import Graph from '../../img/logos/LOGO_Graphql.png'
 
+export const Apollo = () => {
+	return (
+		<div className='imagediv'>
+			<h1>Apollo</h1>
+			<img className='logos' src={Apol} alt='Apollo LOGO' />
+		</div>
+	)
+}
+export const Graphql = () => {
+	return (
+		<div className='imagediv'>
+			<h1>GraphQL</h1>
+			<img className='logos' src={Graph} alt='GraphQL LOGO' />
+		</div>
+	)
+}
+export const Material = () => {
+	return (
+		<div className='imagediv'>
+			<h1>Material UI</h1>
+			<img className='logos' src={MaterialUI} alt='Material UI LOGO' />
+		</div>
+	)
+}
 export const TensorFlow = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>TensorFlow</h1>
-			<img className="logos" src={Tensor} alt="Tensorflow LOGO" />
+			<img className='logos' src={Tensor} alt='Tensorflow LOGO' />
 		</div>
 	)
 }
 export const JS = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>Javascript</h1>
-			<img className="logos" src={Js} alt="Javascript LOGO" />
+			<img className='logos' src={Js} alt='Javascript LOGO' />
 		</div>
 	)
 }
 export const HTML = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>HTML</h1>
-			<img className="logos" src={Html} alt="HTML LOGO" />
+			<img className='logos' src={Html} alt='HTML LOGO' />
 		</div>
 	)
 }
 export const CSS = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>CSS</h1>
-			<img className="logos" src={Css} alt="CSS LOGO" />
+			<img className='logos' src={Css} alt='CSS LOGO' />
 		</div>
 	)
 }
 export const JQuery = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>jQuery</h1>
-			<img className="logos" src={Jquere} alt="jQuery LOGO" />
+			<img className='logos' src={Jquere} alt='jQuery LOGO' />
 		</div>
 	)
 }
 export const SASS = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>SASS</h1>
-			<img className="logos" src={Sass} alt="SASS LOGO" />
+			<img className='logos' src={Sass} alt='SASS LOGO' />
 		</div>
 	)
 }
 export const React_Hooks = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>React Hooks</h1>
-			<img className="logos" src={Hooks} alt="REACT_HOOKS LOGO" />
+			<img className='logos' src={Hooks} alt='REACT_HOOKS LOGO' />
 		</div>
 	)
 }
 export const Confetti = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>Confetti.Js</h1>
-			<img className="logos" src={Confettijs} alt="Confetti.Js LOGO" />
+			<img className='logos' src={Confettijs} alt='Confetti.Js LOGO' />
 		</div>
 	)
 }
 export const React_Spring = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>React Spring</h1>
-			<img className="logos" src={Spring} alt="React Spring LOGO" />
+			<img className='logos' src={Spring} alt='React Spring LOGO' />
 		</div>
 	)
 }
 export const Csharp = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>C#</h1>
-			<img className="logos" src={CSharp} alt="Csharp LOGO" />
+			<img className='logos' src={CSharp} alt='Csharp LOGO' />
 		</div>
 	)
 }
 export const Gmaps = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>Google Maps API</h1>
-			<img className="logos" src={GMaps} alt="Gmaps LOGO" />
+			<img className='logos' src={GMaps} alt='Gmaps LOGO' />
 		</div>
 	)
 }
 export const Unity = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>Unity3D</h1>
-			<img className="logos" src={UNity} alt="Unity3D LOGO" />
+			<img className='logos' src={UNity} alt='Unity3D LOGO' />
 		</div>
 	)
 }
 export const StyledComp = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>Styled Components</h1>
-			<img className="logos" src={SYyledComp} alt="Styled Components LOGO" />
+			<img className='logos' src={SYyledComp} alt='Styled Components LOGO' />
 		</div>
 	)
 }
 export const Reactiv = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>React</h1>
-			<img className="logos" src={REactiv} alt="React LOGO" />
+			<img className='logos' src={REactiv} alt='React LOGO' />
 		</div>
 	)
 }
 export const Python = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>Python</h1>
-			<img className="logos" src={PYthon} alt="Python LOGO" />
+			<img className='logos' src={PYthon} alt='Python LOGO' />
 		</div>
 	)
 }
 export const Postgres = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>PostgreSQL</h1>
-			<img className="logos" src={POstgres} alt="PostgreSQL LOGO" />
+			<img className='logos' src={POstgres} alt='PostgreSQL LOGO' />
 		</div>
 	)
 }
 export const Node = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>Node.Js</h1>
-			<img className="logos" src={NOde} alt="Node.Js LOGO" />
+			<img className='logos' src={NOde} alt='Node.Js LOGO' />
 		</div>
 	)
 }
 export const Nasa = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>NASA API</h1>
-			<img className="logos" src={NAsa} alt="NASA LOGO" />
+			<img className='logos' src={NAsa} alt='NASA LOGO' />
 		</div>
 	)
 }
 export const MongoDB = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>MongoDB</h1>
-			<img className="logos" src={MOngoDB} alt="MongoDB LOGO" />
+			<img className='logos' src={MOngoDB} alt='MongoDB LOGO' />
 		</div>
 	)
 }
 export const MlAgents = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>Unity ML Agents</h1>
-			<img className="logos" src={MLAgents} alt="Unity ML AGENTS LOGO" />
+			<img className='logos' src={MLAgents} alt='Unity ML AGENTS LOGO' />
 		</div>
 	)
 }
 export const DataSet = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>SafeLA DATA_SET</h1>
-			<img className="logos" src={DS} alt="Data Set LOGO" />
+			<img className='logos' src={DS} alt='Data Set LOGO' />
 		</div>
 	)
 }
 export const Express = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>Express.Js</h1>
-			<img className="logos" src={Xpress} alt="Express.Js LOGO" />
+			<img className='logos' src={Xpress} alt='Express.Js LOGO' />
 		</div>
 	)
 }
 export const Mongoose = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>Mongoose</h1>
-			<img className="logos" src={Mgoose} alt="Mongoose LOGO" />
+			<img className='logos' src={Mgoose} alt='Mongoose LOGO' />
 		</div>
 	)
 }
 export const ReactGlobe = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>React Globe</h1>
-			<img className="logos" src={Globe} alt="React Globe LOGO" />
+			<img className='logos' src={Globe} alt='React Globe LOGO' />
 		</div>
 	)
 }
 export const VirtualSky = () => {
 	return (
-		<div className="imagediv">
+		<div className='imagediv'>
 			<h1>Virtual Sky API</h1>
-			<img className="logos" src={Sky} alt="Los Cumbres Observatory LOGO" />
+			<img className='logos' src={Sky} alt='Los Cumbres Observatory LOGO' />
 		</div>
 	)
 }

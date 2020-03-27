@@ -6,6 +6,7 @@ import NeuroDrome from '../projects/neurodrome'
 import Scifi from '../projects/scienceSwitch'
 import Contagion from '../projects/contagion'
 import BarberShop from '../projects/froshsBarbershop'
+import PNMixy from '../projects/mixy'
 import GitLogo from '../../img/GitHub-Mark-120px-plus.png'
 import InstaLogo from '../../img/glyph-logo_May2016.png'
 import LinkLogo from '../../img/LI-China-In-Bug.png'
@@ -18,6 +19,7 @@ import styled from 'styled-components'
 import Modal from 'react-responsive-modal'
 import 'normalize.css'
 import '../../css/landing101.css'
+import Memesum from '../npmPackages'
 
 const LandImg = styled.img`
 	&.img__logo {
@@ -234,24 +236,26 @@ class Landing extends Component {
 				<div className='skills'>
 					<h3 className='skillsHeader'>SKILLS</h3>
 					<p className='skillsList'>
-						{' '}
-						HTML/CSS | JAVASCRIPT | REACT | REDUX | PYTHON | C# | JQUERY |
-						MARKDOWN | FIREBASE | NODE.JS | EXPRESS | MONGODB | MONGOOSE |
-						TENSORFLOW | UNITY3D | SASS | STYLED-COMPONENTS | EJS | JINJA |
-						POSTGRESQL | MYSQL | DOCKER | WATSON API | GOOGLE API | NPM | BASH |
-						FLASK | THREE.JS | D3 | UNITY MACHINE-LEARNING AGENTS | PANDAS |
-						NUMPY | MATPLOTLIB | BOKEH | APACHE ZEPPELIN | IBM DB2 | GITHUB |
-						GIT | VSCODE | SUBLIME | JUPYTER NOTEBOOKS | IBM WATSON STUDIO |
-						SLACK | AIRTABLE | TODOIST |
+						HTML/CSS | JAVASCRIPT | REACT | REACT HOOKS | PYTHON | C# | JQUERY |
+						MARKDOWN | APOLLO | GRAPHQL | FIREBASE | NODE.JS | EXPRESS | MONGODB
+						| MONGOOSE | UNITY3D | MATERIAL UI | SASS | STYLED-COMPONENTS | EJS
+						| JINJA | POSTGRESQL | MYSQL | DOCKER | WATSON API | GOOGLE API |
+						NPM | BASH | FLASK | THREE.JS | D3 | UNITY MACHINE-LEARNING AGENTS |
+						PANDAS | NUMPY | MATPLOTLIB | BOKEH | APACHE ZEPPELIN | IBM DB2 |
+						GITHUB | GIT | VSCODE | SUBLIME | JUPYTER NOTEBOOKS | IBM WATSON
+						STUDIO | SLACK | AIRTABLE | TODOIST |
 					</p>
 				</div>
 				<div className='projects'>
 					<h1 className='header_special'>PROJECTS</h1>
 					<div className='project_container'>
 						<Scifi />
+						<PNMixy />
 						<BarberShop />
 						<Contagion />
 					</div>
+					<h1 className='header'>NPM PACKAGES</h1>
+					<Memesum />
 					<h1 className='header'>EXPERIMENTS</h1>
 					<NeuroDrome />
 					<a href='https://github.com/LonelyTree' className='clickGithub'>
